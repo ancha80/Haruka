@@ -2,12 +2,12 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 // self or public
-global.self = false //jadiin true klo gk mau fitur bot lu di pke sama org lain
+global.self = true //jadiin true klo gk mau fitur bot lu di pke sama org lain
 
 // setting
-global.ownername ="ZeeoneOfc"
-global.ownernumber = "62887435047326"
-global.botname = "Haruka-Bot"
+global.ownername ="AnchaAnchi"
+global.ownernumber = "6281342342689"
+global.botname = "Asisten-Ancha"
 global.thumbnail = fs.readFileSync("./settings/haruka.jpg") //sesuaikan dengan nama foto
 global.background = "https://telegra.ph/file/d4c05638fa7886a1d8060.jpg"
 global.limit = {
